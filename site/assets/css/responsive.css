@@ -1,0 +1,1066 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner .banner-content h1 {
+        font-size: 52px;
+    }
+    .section-title h2 {
+        font-size: 42px;
+    }
+    .login .login-title {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        /* header */
+    .header .header-top {
+        display: none;
+    }
+    .header .header-bottom .mainmenu .navbar {
+        width: 100%;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px;
+        margin: 0;
+        background: rgba(0, 0, 80, 0.1); 
+        margin-bottom: 1px;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header .header-bottom {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        font-size: 28px;
+        border: 1px solid #000050;
+        float: right;
+        margin: 15px 0;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    /* banner */
+    .banner .banner-content h1 {
+        font-size: 45px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-content .content-button a {
+        height: 50px;
+        line-height: 50px;
+        width: 180px;
+    }
+    .banner .banner-content .content-button a:first-child {
+        margin-right: 6px;
+        margin-bottom: 10px;
+    }
+    .banner .banner-content {
+        padding: 180px 0; 
+    }
+
+    /* section title */
+    .section-title h2 {
+        font-size: 37px;
+        margin-top: -8px;
+    }
+    .about .about-content .part-text h3{
+        font-size: 37px;
+    }
+
+    /* how it works */
+    .how-it-works {
+        padding: 120px 0 90px;
+    }
+    .how-it-works .single-works {
+        margin-bottom: 30px;
+    }
+    .how-it-works .single-works .part-text h3,
+    .feature .single-feature .part-text h3 {
+        font-size: 22px;
+    }
+
+    /* referral */
+    .referral .left-side .single-level .part-parcent, .referral .right-side .single-level .part-parcent {
+        width: 100%;
+    }
+    .referral .left-side .single-level .part-text, .referral .right-side .single-level .part-text {
+        padding: 23px 30px 20px;
+    }
+    .referral .left-side h3, .referral .right-side h3 {
+        font-size: 24px;
+    }
+
+    /* couneter */
+    .counter .single-counter {
+        margin-bottom: 30px;
+    }
+    .counter {
+        padding-bottom: 90px;
+    }
+    .counter .single-counter .part-text h3{
+        font-size: 37px;
+    }
+    .counter .single-counter .part-icon {
+        width: 170px;
+        height: 170px;
+        line-height: 170px;
+    }
+    /* transaction */
+    .transaction {
+        padding: 120px 0 90px;
+    }
+    .transaction .single-transaction {
+        margin-bottom: 30px;
+    }
+    .transaction .single-transaction .parent-table {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .transaction .single-transaction .parent-table .table {
+        overflow: hidden;
+    }
+
+    /* footer */
+    .footer .footer-top {
+        padding: 120px 0 83px;
+    }
+    .footer .footer-top .secure-area {
+        display: none;
+    }
+    .footer .footer-top .about-area {
+        margin-bottom: 24px;
+    }
+    .footer .footer-top .useful-link {
+        margin-bottom: 15px;
+    }
+    .footer .footer-bottom .copyright p {
+        font-size: 14px;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .footer .footer-bottom .social {
+        text-align: center;
+        padding: 19px 0 20px;
+        border-top: 1px solid rgba(0, 136, 255, 0.3);
+    }
+
+    /* breadcrump */
+    .hyip-breadcrump .breadcrump-title h2 {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .hyip-breadcrump .breadcrump-title {
+        padding: 60px 0 63px;
+    }
+
+    /* about page */
+    .about-page .part-text {
+        padding-left: 0;
+        margin-top: 20px;
+    } 
+    .about-page .part-text h3 {
+        font-size: 37px;
+
+    }
+    .about-page .part-text ul {
+        display: none;
+    }
+    .about-page .part-text p {
+        margin-bottom: -8px;
+    }
+
+    /* faq */
+    .faq .accordion .card .card-header h5 button {
+        white-space: normal;
+    }
+
+    /* contact */
+    .contact .part-address {
+        padding: 120px 0 90px;
+    }
+    .contact .part-address .single-adress {
+        margin-bottom: 30px;
+    }
+    .contact .get-in-touch {
+        padding: 120px 0;
+    }
+
+    /* login & register */
+    .login .part-text {
+        display: none;
+    }
+    .login .part-form {
+        padding: 30px 20px 28px;
+    }
+    .login span.forget-password {
+        font-size: 14px;
+    }
+    .login .line {
+        display: none;
+    }
+    .login .login-with-social {
+        margin-top: 40px;
+    }
+    .price .single-price{
+        margin-bottom: 30px;
+    }
+    .price{
+        padding-bottom: 90px;
+    }
+
+    /* new added */
+
+    /* new added */
+    .referral .left-side .single-level, .referral .right-side .single-level{
+        border-right: 0;
+    }
+    .referral .left-side .single-level .part-parcent span.level-no, 
+    .referral .right-side .single-level .part-parcent span.level-no {
+        font-size: 21px;
+    }
+    .counter .single-counter .part-text span.count-name {
+        font-size: 20px;
+    }
+    .hyip-breadcrump.extra_padding .breadcrump-title {
+        padding-bottom: 63px;
+    }
+    .blog-details-area .part-meta ul li:after,
+    .blog-details-area .part-meta ul li:first-child:after{
+        display: none !important;
+    }
+    .blog-details-area .part-meta ul li{
+        padding-left: 0 !important;
+    }
+    .login .login-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+        /* header */
+    .header .header-top {
+        display: none;
+    }
+    .header .header-bottom .mainmenu .navbar {
+        width: 100%;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px;
+        margin: 0;
+        background: rgba(0, 0, 80, 0.1); 
+        margin-bottom: 1px;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header .header-bottom {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        font-size: 28px;
+        border: 1px solid #000050;
+        float: right;
+        margin: 15px 0;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    /* banner */
+    .banner .banner-content h1 {
+        font-size: 30px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-content .content-button a {
+        height: 50px;
+        line-height: 50px;
+        width: 180px;
+    }
+    .banner .banner-content .content-button a:first-child {
+        margin-right: 6px;
+        margin-bottom: 10px;
+    }
+    .banner .banner-content {
+        padding: 180px 0; 
+    }
+
+    /* section title */
+    .section-title h2 {
+        font-size: 28px;
+        margin-top: -8px;
+    }
+
+    /* how it works */
+    .how-it-works {
+        padding: 120px 0 90px;
+    }
+    .how-it-works .single-works {
+        margin-bottom: 30px;
+    }
+
+    /* about */
+    .about {
+        padding: 120px 0 152px;
+    }
+    .about .about-content:after {
+        display: none;
+    }
+    .about .about-content {
+        border-radius: 0;
+        padding: 33px 30px 52px;
+    }
+    .about .about-content .part-play-video {
+        right: 50%;
+        margin-right: -40px;
+    }
+
+    /* referral */
+    .referral .left-side .single-level .part-parcent, .referral .right-side .single-level .part-parcent {
+        width: 100%;
+    }
+    .referral .left-side .single-level .part-text, .referral .right-side .single-level .part-text {
+        padding: 23px 30px 20px;
+    }
+    .referral .left-side p, .referral .right-side p,
+    .referral .left-side h3, .referral .right-side h3 {
+        text-align: center;
+    }
+
+    /* couneter */
+    .counter .single-counter {
+        margin-bottom: 30px;
+    }
+    .counter {
+        padding: 80px 0;
+    }
+
+    /* transaction */
+    .transaction {
+        padding: 120px 0 90px;
+    }
+    .transaction .single-transaction {
+        margin-bottom: 30px;
+    }
+    .transaction .single-transaction .parent-table {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .transaction .single-transaction .parent-table .table {
+        overflow: hidden;
+        width: 600px;
+    }
+
+    /* footer */
+    .footer .footer-top {
+        padding: 120px 0 90px;
+    }
+    .footer .footer-top .secure-area {
+        display: none;
+    }
+    .footer .footer-top .about-area {
+        margin-bottom: 24px;
+    }
+    .footer .footer-top .useful-link {
+        margin-bottom: 15px;
+    }
+    .footer .footer-bottom .copyright p {
+        font-size: 14px;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .footer .footer-bottom .social {
+        text-align: center;
+        padding: 19px 0 20px;
+        border-top: 1px solid rgba(0, 136, 255, 0.3);
+    }
+
+    /* breadcrump */
+    .hyip-breadcrump .breadcrump-title h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .hyip-breadcrump .breadcrump-title {
+        padding: 60px 0 63px;
+    }
+
+    /* about page */
+    .about-page .part-text {
+        padding-left: 0;
+        margin-top: 20px;
+    } 
+    .about-page .part-text h3 {
+        font-size: 28px;
+    }
+    .about-page .part-text ul {
+        display: none;
+    }
+    .about-page .part-text p {
+        margin-bottom: -8px;
+    }
+
+    /* faq */
+    .faq .accordion .card .card-header h5 button {
+        white-space: normal;
+    }
+    .faq .accordion .card .card-header h5 button:after {
+        display: none;
+    }
+
+    /* contact */
+    .contact .part-address {
+        padding: 120px 0 90px;
+    }
+    .contact .part-address .single-adress {
+        margin-bottom: 30px;
+    }
+    .contact .get-in-touch {
+        padding: 120px 0;
+    }
+
+    /* login & register */
+    .login .part-text {
+        display: none;
+    }
+    .login .part-form {
+        padding: 30px 20px 28px;
+    }
+    .login span.forget-password {
+        font-size: 14px;
+    }
+    .login .line {
+        display: none;
+    }
+    .login .login-with-social {
+        margin-top: 40px;
+    }
+    .price .single-price{
+        margin-bottom: 30px;
+    }
+    .price{
+        padding-bottom: 90px;
+    }
+
+    /* new added */
+    .referral .left-side .single-level, .referral .right-side .single-level{
+        border-right: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /* header */
+    .header .header-top {
+        display: none;
+    }
+    .header .header-bottom .mainmenu .navbar {
+        width: 100%;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px;
+        margin: 0;
+        background: rgba(0, 0, 80, 0.1); 
+        margin-bottom: 1px;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header .header-bottom {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        font-size: 28px;
+        border: 1px solid #000050;
+        float: right;
+        margin: 15px 0;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    /* banner */
+    .banner .banner-content h1 {
+        font-size: 30px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-content .content-button a {
+        height: 50px;
+        line-height: 50px;
+        width: 180px;
+    }
+    .banner .banner-content .content-button a:first-child {
+        margin-right: 6px;
+        margin-bottom: 10px;
+    }
+    .banner .banner-content {
+        padding: 180px 0; 
+    }
+
+    /* section title */
+    .section-title h2 {
+        font-size: 28px;
+        margin-top: -8px;
+    }
+
+    /* how it works */
+    .how-it-works {
+        padding: 120px 0 90px;
+    }
+    .how-it-works .single-works {
+        margin-bottom: 30px;
+    }
+
+    /* about */
+    .about {
+        padding: 120px 0 152px;
+    }
+    .about .about-content:after {
+        display: none;
+    }
+    .about .about-content {
+        border-radius: 0;
+        padding: 33px 30px 52px;
+    }
+    .about .about-content .part-play-video {
+        right: 50%;
+        margin-right: -40px;
+    }
+
+    /* referral */
+    .referral .left-side .single-level .part-parcent, .referral .right-side .single-level .part-parcent {
+        width: 100%;
+    }
+    .referral .left-side .single-level .part-text, .referral .right-side .single-level .part-text {
+        padding: 23px 30px 20px;
+    }
+    .referral .left-side p, .referral .right-side p,
+    .referral .left-side h3, .referral .right-side h3 {
+        text-align: center;
+    }
+
+    /* couneter */
+    .counter .single-counter {
+        margin-bottom: 30px;
+    }
+    .counter {
+        padding: 80px 0;
+    }
+
+    /* transaction */
+    .transaction {
+        padding: 120px 0 90px;
+    }
+    .transaction .single-transaction {
+        margin-bottom: 30px;
+    }
+    .transaction .single-transaction .parent-table {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .transaction .single-transaction .parent-table .table {
+        overflow: hidden;
+        width: 600px;
+    }
+
+    /* footer */
+    .footer .footer-top {
+        padding: 120px 0 90px;
+    }
+    .footer .footer-top .secure-area {
+        display: none;
+    }
+    .footer .footer-top .about-area {
+        margin-bottom: 24px;
+    }
+    .footer .footer-top .useful-link {
+        margin-bottom: 15px;
+    }
+    .footer .footer-bottom .copyright p {
+        font-size: 14px;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .footer .footer-bottom .social {
+        text-align: center;
+        padding: 19px 0 20px;
+        border-top: 1px solid rgba(0, 136, 255, 0.3);
+    }
+
+    /* breadcrump */
+    .hyip-breadcrump .breadcrump-title h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .hyip-breadcrump .breadcrump-title {
+        padding: 60px 0 63px;
+    }
+
+    /* about page */
+    .about-page .part-text {
+        padding-left: 0;
+        margin-top: 20px;
+    } 
+    .about-page .part-text h3 {
+        font-size: 28px;
+    }
+    .about-page .part-text ul {
+        display: none;
+    }
+    .about-page .part-text p {
+        margin-bottom: -8px;
+    }
+
+    /* faq */
+    .faq .accordion .card .card-header h5 button {
+        white-space: normal;
+    }
+    .faq .accordion .card .card-header h5 button:after {
+        display: none;
+    }
+
+    /* contact */
+    .contact .part-address {
+        padding: 120px 0 90px;
+    }
+    .contact .part-address .single-adress {
+        margin-bottom: 30px;
+    }
+    .contact .get-in-touch {
+        padding: 120px 0;
+    }
+
+    /* login & register */
+    .login .part-text {
+        display: none;
+    }
+    .login .part-form {
+        padding: 30px 20px 28px;
+    }
+    .login span.forget-password {
+        font-size: 14px;
+    }
+    .login .line {
+        display: none;
+    }
+    .login .login-with-social {
+        margin-top: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /* header */
+    .header .header-top {
+        display: none;
+    }
+    .header .header-bottom .mainmenu .navbar {
+        width: 100%;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px;
+        margin: 0;
+        background: rgba(0, 0, 80, 0.1); 
+        margin-bottom: 1px;
+    }
+    .header .header-bottom .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header .header-bottom {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        font-size: 28px;
+        border: 1px solid #000050;
+        float: right;
+        margin: 15px 0;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    /* banner */
+    .banner .banner-content h1 {
+        font-size: 30px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-content .content-button a {
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .banner-content .content-button a:first-child {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .banner .banner-content {
+        padding: 180px 0; 
+    }
+
+    /* section title */
+    .section-title h2 {
+        font-size: 28px;
+        margin-top: -8px;
+    }
+
+    /* how it works */
+    .how-it-works {
+        padding: 120px 0 90px;
+    }
+    .how-it-works .single-works {
+        margin-bottom: 30px;
+    }
+
+    /* about */
+    .about {
+        padding: 120px 0 152px;
+    }
+    .about .about-content:after {
+        display: none;
+    }
+    .about .about-content {
+        border-radius: 0;
+        padding: 33px 30px 52px;
+    }
+    .about .about-content .part-play-video {
+        right: 50%;
+        margin-right: -40px;
+    }
+
+    /* referral */
+    .referral .left-side .single-level .part-parcent, .referral .right-side .single-level .part-parcent {
+        width: 100%;
+    }
+    .referral .left-side .single-level .part-text, .referral .right-side .single-level .part-text {
+        padding: 23px 30px 20px;
+    }
+    .referral .left-side p, .referral .right-side p,
+    .referral .left-side h3, .referral .right-side h3 {
+        text-align: center;
+    }
+
+    /* couneter */
+    .counter .single-counter {
+        margin-bottom: 30px;
+    }
+    .counter {
+        padding: 80px 0;
+    }
+
+    /* transaction */
+    .transaction {
+        padding: 120px 0 90px;
+    }
+    .transaction .single-transaction {
+        margin-bottom: 30px;
+    }
+    .transaction .single-transaction .parent-table {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .transaction .single-transaction .parent-table .table {
+        overflow: hidden;
+        width: 600px;
+    }
+
+    /* footer */
+    .footer .footer-top {
+        padding: 120px 0 90px;
+    }
+    .footer .footer-top .secure-area {
+        display: none;
+    }
+    .footer .footer-top .about-area {
+        margin-bottom: 24px;
+    }
+    .footer .footer-top .useful-link {
+        margin-bottom: 15px;
+    }
+    .footer .footer-bottom .copyright p {
+        font-size: 14px;
+        text-align: center;
+        padding: 13px 0;
+    }
+    .footer .footer-bottom .social {
+        text-align: center;
+        padding: 19px 0 20px;
+        border-top: 1px solid rgba(0, 136, 255, 0.3);
+    }
+
+    /* breadcrump */
+    .hyip-breadcrump .breadcrump-title h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .hyip-breadcrump .breadcrump-title {
+        padding: 60px 0 63px;
+    }
+
+    /* about page */
+    .about-page .part-text {
+        padding-left: 0;
+        margin-top: 20px;
+    } 
+    .about-page .part-text h3 {
+        font-size: 28px;
+    }
+    .about-page .part-text ul {
+        display: none;
+    }
+    .about-page .part-text p {
+        margin-bottom: -8px;
+    }
+
+    /* faq */
+    .faq .accordion .card .card-header h5 button {
+        white-space: normal;
+    }
+    .faq .accordion .card .card-header h5 button:after {
+        display: none;
+    }
+
+    /* contact */
+    .contact .part-address {
+        padding: 120px 0 90px;
+    }
+    .contact .part-address .single-adress {
+        margin-bottom: 30px;
+    }
+    .contact .get-in-touch {
+        padding: 120px 0;
+    }
+
+    /* login & register */
+    .login .part-text {
+        display: none;
+    }
+    .login .part-form {
+        padding: 30px 20px 28px;
+    }
+    .login span.forget-password {
+        font-size: 14px;
+    }
+    .login .line {
+        display: none;
+    }
+    .login .login-with-social {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .banner .banner-content h1 {
+        font-size: 36px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner .banner-content {
+        padding: 180px 0 170px 0;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .how-it-works .single-works .part-text h3,
+    .feature .single-feature .part-text h3,
+    .price .single-price .part-top h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .about .about-content .part-text h3 {
+        font-size: 32px;
+    }
+    .about .about-content .part-play-video {
+        top: -40px;
+        /* left: 30px; */
+    }
+    .about .about-content {
+        border-radius: 0;
+        padding: 72px 30px 17px;
+    }
+    .about {
+        padding: 160px 0 120px;
+    }
+    .price .single-price .part-top h4 {
+        font-size: 36px;
+    }
+    .referral .left-side h3, .referral .right-side h3 {
+        font-size: 26px;
+    }
+    .counter .single-counter .part-icon {
+        width: 170px;
+        height: 170px;
+        line-height: 170px;
+    }
+    .counter .single-counter .part-text h3 {
+        font-size: 36px;
+    }
+    .counter .single-counter .part-text span.count-name {
+        font-size: 20px;
+    }
+    .footer .footer-top .useful-link {
+        margin-bottom: 30px;
+    }
+    .footer .footer-top {
+        padding: 100px 0 54px;
+    }
+    .footer .footer-top .about-area p,
+    .footer .footer-top .useful-link ul li a{
+        color: rgba(255,255,255,.8);
+    }
+    .hyip-breadcrump.extra_padding .breadcrump-title {
+        padding-bottom: 63px;
+    }
+    .blog-details-area .part-meta ul li{
+        padding-left: 0 !important;
+    }
+    .blog-details-area .part-meta ul li:first-child:after,
+    .blog-details-area .part-meta ul li:after{
+        display: none !important;
+    }
+    .comments-area .single-comment .part-text h4 {
+        font-size: 20px !important;
+    }
+    .blog-details-area .part-text h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .comment-form-area form h3,
+    .comments-area h3{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .comments-area .single-comment.first-child {
+        padding-top: 26px;
+    }
+    .login.login-1 {
+        padding: 120px 0 120px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .banner .banner-content .content-button a {
+        height: 50px;
+        width: 165px;
+    }
+    .banner .banner-content h1 {
+        font-size: 40px;
+    }
+    .hyip-breadcrump .breadcrump-title span {
+        font-size: 16px;
+    }
+    .hyip-breadcrump .breadcrump-title h2.add-space {
+        margin-bottom: 15px;
+    }
+    .login .login-title {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .counter .single-counter .part-icon {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        font-size: 45px;
+    }
+    .counter {
+        padding: 120px 0 80px 0;
+    }
+    .login .login-title {
+        font-size: 26px;
+    }
+    .contact .part-address .single-adress .part-text h3 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 384px){
+    .banner .banner-content h1 {
+        font-size: 36px;
+    }
+    .testimonial .single-testimonial .part-details .user-data span.name,
+    .transaction .single-transaction .table-title h3 {
+        font-size: 22px;
+    }
+    .referral .left-side h3, .referral .right-side h3 {
+        font-size: 24px;
+    }
+    .referral .left-side .single-level, 
+    .referral .right-side .single-level{
+        border-right: none;
+    }
+    .faq .accordion .card .card-header h5 button {
+        font-size: 18px;
+    }
+    .blog-details-area .part-text h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .login .login-title {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .banner .banner-content h1 {
+        font-size: 34px;
+    }
+    .banner .banner-content .content-button a {
+        height: 50px;
+        width: 145px;
+    }
+    .section-title h2,
+    .about .about-content .part-text h3 {
+        font-size: 30px;
+    }
+    .price .single-price .part-top h4 {
+        font-size: 34px;
+    }
+    .counter .single-counter .part-icon {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 35px;
+    }
+    .counter .single-counter .part-text h3 {
+        font-size: 34px;
+    }
+    .about-page .play-video a {
+        font-size: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .login .login-title {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .banner .banner-content .content-button a {
+        height: 50px;
+        width: 140px;
+        font-size: 14px;
+    }
+    .about .about-content .play-video a {
+        font-size: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .hyip-breadcrump .breadcrump-title h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+}

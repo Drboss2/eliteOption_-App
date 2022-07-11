@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_icon_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <path d="M153.513952,0 C68.7305374,0 0,67.1572875 0,150 C0,232.842712 68.7305374,300 153.513952,300 C222.252,300 280.438275,255.856604 300,195 C283.788008,186.320235 261.554629,186.320235 233.299863,195 C190.917714,208.019648 187.607042,240 153.513952,240 C102.643903,240 61.4055808,199.705627 61.4055808,150 C61.4055808,100.294373 102.643903,60 153.513952,60 C187.607042,60 202.438964,95.5196197 233.299848,104.999975 C253.873771,111.320212 276.107155,111.32022 300,105 C280.438275,44.1433957 222.252,0 153.513952,0 Z" id="logo_icon_dark" fill="#1C222F"></path>
+    </g>
+</svg>

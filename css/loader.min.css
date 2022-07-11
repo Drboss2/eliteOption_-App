@@ -1,0 +1,181 @@
+.cssload-container {
+	margin: -44px -58px;
+	width: 117px;
+	height: 88px;
+	position: absolute;
+	left: 50%;
+}
+.cssload-dot {
+	background: rgb(0,0,0);
+	border-radius: 50%; 
+	width: 50px;
+	height: 50px;
+	line-height:50px;
+	font-size:24px;
+	position: absolute;
+	bottom: 29px;
+	left: 0px;
+	transform-origin: center bottom;
+		-o-transform-origin: center bottom;
+		-ms-transform-origin: center bottom;
+		-webkit-transform-origin: center bottom;
+		-moz-transform-origin: center bottom;
+	animation: cssload-dot 0.69s ease-in-out infinite;
+		-o-animation: cssload-dot 0.69s ease-in-out infinite;
+		-ms-animation: cssload-dot 0.69s ease-in-out infinite;
+		-webkit-animation: cssload-dot 0.69s ease-in-out infinite;
+		-moz-animation: cssload-dot 0.69s ease-in-out infinite;
+}
+
+
+.step {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	border-top: 4px solid rgb(0,0,0);
+	top: 0;
+	right:0;
+}
+
+
+
+#cssload-s1 { animation: cssload-anim 2.07s linear infinite;
+		-o-animation: cssload-anim 2.07s linear infinite;
+		-ms-animation: cssload-anim 2.07s linear infinite;
+		-webkit-animation: cssload-anim 2.07s linear infinite;
+		-moz-animation: cssload-anim 2.07s linear infinite; }
+#cssload-s2 { animation: cssload-anim 2.07s linear infinite -0.69s;
+		-o-animation: cssload-anim 2.07s linear infinite -0.69s;
+		-ms-animation: cssload-anim 2.07s linear infinite -0.69s;
+		-webkit-animation: cssload-anim 2.07s linear infinite -0.69s;
+		-moz-animation: cssload-anim 2.07s linear infinite -0.69s; }
+#cssload-s3 { animation: cssload-anim 2.07s linear infinite -1.38s;
+		-o-animation: cssload-anim 2.07s linear infinite -1.38s;
+		-ms-animation: cssload-anim 2.07s linear infinite -1.38s;
+		-webkit-animation: cssload-anim 2.07s linear infinite -1.38s;
+		-moz-animation: cssload-anim 2.07s linear infinite -1.38s; }
+
+@keyframes cssload-dot {
+ 0% { transform: scale(1,.7); }
+ 20% { transform: scale(.7,1.2); }
+ 40% { transform: scale(1,1);} 
+ 50% { bottom: 97px;} 
+ 46% { transform: scale(1,1);} 
+ 80% { transform: scale(.7,1.2);} 
+ 90% { transform: scale(.7,1.2);} 
+ 100% { transform: scale(1,0.7);}
+}
+
+@-o-keyframes cssload-dot {
+ 0% { -o-transform: scale(1,.7); }
+ 20% { -o-transform: scale(.7,1.2); }
+ 40% { -o-transform: scale(1,1);} 
+ 50% { bottom: 97px;} 
+ 46% { -o-transform: scale(1,1);} 
+ 80% { -o-transform: scale(.7,1.2);} 
+ 90% { -o-transform: scale(.7,1.2);} 
+ 100% { -o-transform: scale(1,0.7);}
+}
+
+@-ms-keyframes cssload-dot {
+ 0% { -ms-transform: scale(1,.7); }
+ 20% { -ms-transform: scale(.7,1.2); }
+ 40% { -ms-transform: scale(1,1);} 
+ 50% { bottom: 97px;} 
+ 46% { -ms-transform: scale(1,1);} 
+ 80% { -ms-transform: scale(.7,1.2);} 
+ 90% { -ms-transform: scale(.7,1.2);} 
+ 100% { -ms-transform: scale(1,0.7);}
+}
+
+@-webkit-keyframes cssload-dot {
+ 0% { -webkit-transform: scale(1,.7); }
+ 20% { -webkit-transform: scale(.7,1.2); }
+ 40% { -webkit-transform: scale(1,1);} 
+ 50% { bottom: 97px;} 
+ 46% { -webkit-transform: scale(1,1);} 
+ 80% { -webkit-transform: scale(.7,1.2);} 
+ 90% { -webkit-transform: scale(.7,1.2);} 
+ 100% { -webkit-transform: scale(1,0.7);}
+}
+
+@-moz-keyframes cssload-dot {
+ 0% { -moz-transform: scale(1,.7); }
+ 20% { -moz-transform: scale(.7,1.2); }
+ 40% { -moz-transform: scale(1,1);} 
+ 50% { bottom: 97px;} 
+ 46% { -moz-transform: scale(1,1);} 
+ 80% { -moz-transform: scale(.7,1.2);} 
+ 90% { -moz-transform: scale(.7,1.2);} 
+ 100% { -moz-transform: scale(1,0.7);}
+}
+
+@keyframes cssload-anim { 
+	0% { 
+		opacity: 0;
+		top: 0; 
+		right: 0; 
+	}
+	50% { opacity: 1; }
+	100% { 
+		top: 88px; 
+		right: 88px;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-anim { 
+	0% { 
+		opacity: 0;
+		top: 0; 
+		right: 0; 
+	}
+	50% { opacity: 1; }
+	100% { 
+		top: 88px; 
+		right: 88px;
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-anim { 
+	0% { 
+		opacity: 0;
+		top: 0; 
+		right: 0; 
+	}
+	50% { opacity: 1; }
+	100% { 
+		top: 88px; 
+		right: 88px;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-anim { 
+	0% { 
+		opacity: 0;
+		top: 0; 
+		right: 0; 
+	}
+	50% { opacity: 1; }
+	100% { 
+		top: 88px; 
+		right: 88px;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-anim { 
+	0% { 
+		opacity: 0;
+		top: 0; 
+		right: 0; 
+	}
+	50% { opacity: 1; }
+	100% { 
+		top: 88px; 
+		right: 88px;
+		opacity: 0;
+	}
+}

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="utf-8">
+<title>Coinlib Widget</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Coinlib Widget">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://widget.coinlib.io/static/img/coinlib_fb_card_1200x630.png?25737">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coinlib Widget">
+<meta name="twitter:image" content="https://widget.coinlib.io/static/img/coinlib_tw_card_1200x675.png?25737">
+<meta name="twitter:site" content="@coinlibio">
+<meta property="og:url" content="https://widget.coinlib.io/">
+<link rel="shortcut icon" href="static/img/favicon8ac6.png?25737">
+<link rel="icon" sizes="192x192" href="static/img/logo/dark192x1928ac6.png?25737">
+<link rel="apple-touch-icon" href="static/img/logo/dark152x1528ac6.png?25737">
+<link rel="apple-touch-icon" sizes="152x152" href="static/img/logo/dark152x1528ac6.png?25737">
+<link rel="apple-touch-icon" sizes="167x167" href="static/img/logo/dark167x1678ac6.png?25737">
+<link rel="apple-touch-icon" sizes="180x180" href="static/img/logo/dark180x1808ac6.png?25737">
+
+<link href="static/css/bootstrap.min8ac6.css?25737" rel="stylesheet">
+<link href="static/css/bootstrap-select.min8ac6.css?25737" rel="stylesheet">
+<link href="static/css/fontawesome-all.min8ac6.css?25737" rel="stylesheet">
+
+<script>
+        (function(i18Translations){
+            i18Translations = [];
+            window.i18Translations = i18Translations;
+        })(window.i18Translations || {});
+    </script>
+<script>
+        (function(i18Language){
+            i18Language = "en";
+            window.i18Language = i18Language;
+        })(window.i18Language || {});
+    </script>
+<script src="static/js/our/i18next8ac6.js?25737"></script>
+
+
+<link href="static/css/light8ac6.css?25737" rel="stylesheet">
+<link href="static/css/dark8ac6.css?25737" rel="stylesheet">
+<link href="static/css/charts8ac6.css?25737" rel="stylesheet">
+<link href="static/css/custom8ac6.css?25737" rel="stylesheet">
+<link href="static/css/styles8ac6.css?25737" rel="stylesheet">
+<link href="static/css/style8ac6.css?25737" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link rel="preconnect" href="https://cointraffic.io/">
+</head>
+<body class="dark">
+<table class="table coinlist">
+<thead>
+<tr><th class="tbl-col-sm"></th><th><span class="d-none d-sm-block">Rank</span></th>
+<th colspan="2">Name</th>
+<th class="text-right">Price</th>
+<th class="d-none d-lg-table-cell text-right">Market cap</th>
+<th class="d-none d-lg-table-cell text-right">Volume</th><th class="text-right"><div class="btn-group" style="position:relative; top: 2px;">
+<button style="border:0px;" class="btn btn-xs btn-secondary ch-period dropdown-toggle" type="button" data-toggle="dropdown">LAST 24h</button>
+<div class="dropdown-menu"><a href="javascript:void(0);" onclick="Homepage.changePeriod('last1h');" class="dropdown-item">LAST 1h</a><a href="javascript:void(0);" onclick="Homepage.changePeriod('last24h');" class="dropdown-item">LAST 24h</a><a href="javascript:void(0);" onclick="Homepage.changePeriod('last7d');" class="dropdown-item">LAST 7d</a><a href="javascript:void(0);" onclick="Homepage.changePeriod('last30d');" class="dropdown-item">LAST 30d</a></div>
+</div>
+</th></tr></thead><tbody><tr coin_id="859" coin_url="https://coinlib.io/coin/BTC/Bitcoin"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">1</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/btc8ac6.png?25737" alt="Bitcoin logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/BTC/Bitcoin" target="_blank">Bitcoin</a>
+<span class="tbl-coin-abbrev"> [BTC]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-859">$175.65&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-859"> $3.78&nbsp;B</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-859 price">$9,525.10</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-859">$175.65&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-859">$3.78&nbsp;B</span>
+<span class="tbl-price small price dimmed volume24f-859">&#3647; 397K</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-859 price up">+0.07%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="BTC" tsym="USD" values="9503.5867644304,9528.5642520990,9513.4735557929,9500.6243267324,9513.3932310226,9494.0390793532,9507.5328842191,9502.6757302524,9536.2249483073,9636.0670217879,9618.0165854247,9587.7287736785,9589.9175064037,9593.2558912540,9617.5211191121,9601.3270354951,9611.1283200180,9593.6582830631,9576.9205527646,9580.9144046714,9566.8316711071,9541.5045027142,9552.0873092221,9477.5220854867,9525.104284282119" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="145" coin_url="https://coinlib.io/coin/ETH/Ethereum"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">2</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/eth8ac6.png?25737" alt="Ethereum logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/ETH/Ethereum" target="_blank">Ethereum</a>
+<span class="tbl-coin-abbrev"> [ETH]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-145">$30.37&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-145"> $1.79&nbsp;B</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-145 price">$271.39</span><span class="tbl-price small price dimmed avgprice-145-859">&#3647; 0.0286</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-145">$30.37&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-145">$1.79&nbsp;B</span>
+<span class="tbl-price small price dimmed volume24f-145">ETH 6.61&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-145 price up">+2.07%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="ETH" tsym="USD" values="262.8621164083,266.0514156322,265.6620255012,263.8735854992,265.9186450509,265.5715717185,266.1349049453,265.8913246980,269.4483349574,276.7953596526,275.6022561188,272.9866047483,271.6825281344,273.4766920288,273.7225507596,273.5453298482,275.1438169901,273.1075335855,272.4633742732,274.3328870393,272.1383478142,270.6393666190,273.4087971720,268.9147544604,271.34498289934095" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="619" coin_url="https://coinlib.io/coin/XRP/XRP"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">3</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/xrp8ac6.png?25737" alt="XRP logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/XRP/XRP" target="_blank">XRP</a>
+<span class="tbl-coin-abbrev"> [XRP]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-619">$8.96&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-619"> $234.61&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-619 price">$0.204</span><span class="tbl-price small price dimmed avgprice-619-859">&#3647; 0.00002147</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-619">$8.96&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-619">$234.61&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-619">XRP 1.15&nbsp;B</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-619 price up">+0.73%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="XRP" tsym="USD" values="0.2023974071,0.2031719223,0.2028544408,0.2023054955,0.2026718637,0.2041438584,0.2083982786,0.2072546298,0.2079895850,0.2096060984,0.2080279306,0.2078876764,0.2084228661,0.2071811211,0.2074082709,0.2074821813,0.2084032669,0.2071906175,0.2068854673,0.2075312541,0.2073021911,0.2058078101,0.2057947431,0.2024235083,0.20440907534088562" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="637" coin_url="https://coinlib.io/coin/USDT/Tether"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">4</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/usdt8ac6.png?25737" alt="Tether logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/USDT/Tether" target="_blank">Tether</a>
+<span class="tbl-coin-abbrev"> [USDT]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-637">$4.65&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-637"> $3.56&nbsp;B</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-637 price">$1.001</span><span class="tbl-price small price dimmed avgprice-637-648685">USDC 1.001</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-637">$4.65&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-637">$3.56&nbsp;B</span>
+<span class="tbl-price small price dimmed volume24f-637">USDT 3.56&nbsp;B</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-637 price down">-0.04%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="USDT" tsym="USD" values="1.0015416814,1.0016419742,1.0012990340,1.0012914350,1.0011248153,1.0009844525,1.0009446127,1.0011433852,1.0016619954,1.0015018428,1.0010444882,1.0009304288,1.0008718451,1.0011107908,1.0010555239,1.0009950775,1.0010087034,1.0010219764,1.0009527004,1.0008476531,1.0006779629,1.0009289997,1.0008940269,1.0009352949,1.0011101591673435" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="157" coin_url="https://coinlib.io/coin/BCH/Bitcoin+Cash"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">5</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/bch8ac6.png?25737" alt="Bitcoin Cash logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/BCH/Bitcoin+Cash" target="_blank">Bitcoin Cash</a>
+<span class="tbl-coin-abbrev"> [BCH]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-157">$4.29&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-157"> $105.61&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-157 price">$234.47</span><span class="tbl-price small price dimmed avgprice-157-859">&#3647; 0.0249</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-157">$4.29&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-157">$105.61&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-157">BCH 450K</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-157 price down">-1.69%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="BCH" tsym="USD" values="237.9916886022,238.7122061659,238.0858600909,237.8386734309,237.7433300409,237.4151558779,237.9162528901,236.4629506462,238.6250498428,242.5555822197,239.9204955093,238.8153620660,238.5395597664,237.9865800666,238.7502037084,238.6302525423,238.6264057162,237.8340625764,237.2991971992,238.1639788105,237.4837948556,236.1011101219,236.5242052396,232.7587208859,234.4683907386254" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="122882" coin_url="https://coinlib.io/coin/ADA/Cardano"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">6</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/ada8ac6.png?25737" alt="Cardano logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/ADA/Cardano" target="_blank">Cardano</a>
+<span class="tbl-coin-abbrev"> [ADA]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-122882">$3.18&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-122882"> $59.14&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-122882 price">$0.123</span><span class="tbl-price small price dimmed avgprice-122882-859">&#3647; 0.00001289</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-122882">$3.18&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-122882">$59.14&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-122882">ADA 481.65&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-122882 price down">-2.25%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="ADA" tsym="USD" values="0.12543118919298,0.12575703814278,0.12566156950376,0.12576451452512,0.12566621654587,0.12538207769757,0.12500694386829,0.12458768096419,0.12404244601511,0.12459241937831,0.12458120702935,0.12415725252763,0.12393433990226,0.12433531162978,0.1243526245659,0.12415379976328,0.12390282185034,0.12325932162079,0.12315249446417,0.12292600608626,0.12310885999331,0.12306346262466,0.1228646782236,0.12217947596505,0.12261733577416" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1510485" coin_url="https://coinlib.io/coin/BCHSV/Bitcoin+SV"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">7</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/bchsv8ac6.png?25737" alt="Bitcoin SV logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/BCHSV/Bitcoin+SV" target="_blank">Bitcoin SV</a>
+<span class="tbl-coin-abbrev"> [BSV]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1510485">$3.13&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1510485"> $35.56&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1510485 price">$179.11</span><span class="tbl-price small price dimmed avgprice-1510485-859">&#3647; 0.0188</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1510485">$3.13&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1510485">$35.56&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-1510485">BSV 199K</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1510485 price down">-2.20%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="BCHSV" tsym="USD" values="183.06061145874,183.27434484055,182.67702663746,182.46254844587,183.16099075722,182.17837116701,182.06125794689,181.33878079073,183.09328562362,187.73865544766,186.17620961592,185.29136286676,185.15593979887,184.66356999063,184.48464906254,184.48670308061,185.054609966,183.19443825944,182.57711027873,183.37648180754,182.00034900074,180.58734031135,181.17128971562,177.69507378015,179.11403275742" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="359" coin_url="https://coinlib.io/coin/LTC/Litecoin"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">8</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/ltc8ac6.png?25737" alt="Litecoin logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/LTC/Litecoin" target="_blank">Litecoin</a>
+<span class="tbl-coin-abbrev"> [LTC]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-359">$2.90&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-359"> $190.28&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-359 price">$44.30</span><span class="tbl-price small price dimmed avgprice-359-859">&#3647; 0.0048</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-359">$2.90&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-359">$190.28&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-359">LTC 4.30&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-359 price down">-1.69%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="LTC" tsym="USD" values="44.9328422109,45.1015358444,45.0189103057,44.9525062029,44.9810667268,44.9057210613,44.9903019686,44.7049940483,45.0015821247,45.5416532739,45.2302906018,44.9912132358,45.0002875551,44.8534012973,45.0872375135,45.0010695375,44.9560274122,44.8965989680,44.6533083074,44.9728696754,44.8001396439,44.5194393130,44.6630709817,44.0037565959,44.30197958967311" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1209" coin_url="https://coinlib.io/coin/BNB/Binance+Coin"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">9</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/bnb8ac6.png?25737" alt="Binance Coin logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/BNB/Binance+Coin" target="_blank">Binance Coin</a>
+<span class="tbl-coin-abbrev"> [BNB]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1209">$2.87&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1209"> $104.87&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1209 price">$18.48</span><span class="tbl-price small price dimmed avgprice-1209-859">&#3647; 0.00193779</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1209">$2.87&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1209">$104.87&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-1209">BNB 5.67&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1209 price up">+1.46%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="BNB" tsym="USD" values="18.2274506400,18.2484880800,18.2148276000,18.2377691800,18.2631147200,18.2555010400,18.3278310000,18.2172322800,18.2977770000,18.4632740000,18.5330998200,18.5273895600,18.6272690200,18.5645559800,18.6223598400,18.7079139200,18.7960723200,18.8047879800,18.6757561400,18.6394909800,18.6306751400,18.4505511400,18.4668808400,18.3055906800,18.48020478" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="7618" coin_url="https://coinlib.io/coin/LINK/ChainLink"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">10</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/link8ac6.png?25737" alt="ChainLink logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/LINK/ChainLink" target="_blank">ChainLink</a>
+<span class="tbl-coin-abbrev"> [LINK]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-7618">$2.70&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-7618"> $171.68&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-7618 price">$7.723</span><span class="tbl-price small price dimmed avgprice-7618-859">&#3647; 0.00081129</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-7618">$2.70&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-7618">$171.68&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-7618">LINK 22.23&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-7618 price down">-2.21%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="LINK" tsym="USD" values="7.7599610904,7.8957157754,7.8770121508,7.9845934820,7.9618280519,7.8446546788,7.9431030362,7.9681671086,8.0655349978,8.0017473685,7.8503500738,7.8772639806,7.8589150618,7.8084453532,7.8473120533,7.8769714260,7.9036231149,7.8174551125,7.8100054203,7.8529890693,7.7334562028,7.6780252283,7.7486339897,7.6853852029,7.7226669527735625" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="585" coin_url="https://coinlib.io/coin/EOS/EOS"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">11</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/eos8ac6.png?25737" alt="EOS logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/EOS/EOS" target="_blank">EOS</a>
+<span class="tbl-coin-abbrev"> [EOS]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-585">$2.39&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-585"> $200.19&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-585 price">$2.597</span><span class="tbl-price small price dimmed avgprice-585-859">&#3647; 0.00027430</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-585">$2.39&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-585">$200.19&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-585">EOS 77.09&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-585 price down">-2.26%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="EOS" tsym="USD" values="2.6513498463,2.6587313897,2.6559314711,2.6520515640,2.6512815716,2.6499998985,2.6581638129,2.6469526272,2.6539725693,2.6888648990,2.6672985562,2.6511513398,2.6466891288,2.6410486512,2.6585600540,2.6568820333,2.6550546614,2.6450825668,2.6433447036,2.6477831362,2.6349303892,2.6187101979,2.6236428384,2.5778964624,2.5966808293037764" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="986" coin_url="https://coinlib.io/coin/XTZ/Tezos"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">12</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/xtz8ac6.png?25737" alt="Tezos logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/XTZ/Tezos" target="_blank">Tezos</a>
+<span class="tbl-coin-abbrev"> [XTZ]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-986">$2.17&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-986"> $76.25&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-986 price">$3.082</span><span class="tbl-price small price dimmed avgprice-986-859">&#3647; 0.00032413</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-986">$2.17&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-986">$76.25&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-986">XTZ 24.74&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-986 price down">-0.30%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="XTZ" tsym="USD" values="3.0642606919,3.0927388519,3.0854369861,3.0697821356,3.0838231332,3.0766363945,3.0851914053,3.0529869586,3.1045105084,3.1099867834,3.1749254616,3.2034909831,3.1758011668,3.1837600603,3.1697817126,3.1754389742,3.1849224858,3.1488438490,3.1279860099,3.1565717137,3.1341686516,3.0720454685,3.0803376599,3.0372264034,3.08244097425856" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1510617" coin_url="https://coinlib.io/coin/CRO/Crypto.com+Chain"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">13</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/cro8ac6.png?25737" alt="Crypto.com Chain logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/CRO/Crypto.com+Chain" target="_blank">Crypto.com Chain</a>
+<span class="tbl-coin-abbrev"> [CRO]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1510617">$2.05&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1510617"> $22.22&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1510617 price">$0.145</span><span class="tbl-price small price dimmed avgprice-1510617-859">&#3647; 0.00001526</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1510617">$2.05&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1510617">$22.22&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-1510617">CRO 152.87&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1510617 price down">-0.76%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="CRO" tsym="USD" values="0.14612429901385,0.14655408247941,0.14632483406694,0.14590868828509,0.14622180530014,0.14594331813173,0.14609084879233,0.1456114007498,0.14633527907677,0.14765923661507,0.14737302093183,0.14721574022832,0.14727236314584,0.14683821197389,0.14725290410261,0.14702608102724,0.14745008623439,0.1468280619248,0.14658147290445,0.1470478742829,0.14670449362693,0.14616726162753,0.14658633184732,0.14663527395444,0.14531936406166" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="489" coin_url="https://coinlib.io/coin/XLM/Stellar"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">14</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/xlm8ac6.png?25737" alt="Stellar logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/XLM/Stellar" target="_blank">Stellar</a>
+<span class="tbl-coin-abbrev"> [XLM]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-489">$1.94&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-489"> $70.45&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-489 price">$0.096</span><span class="tbl-price small price dimmed avgprice-489-859">&#3647; 0.00001006</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-489">$1.94&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-489">$70.45&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-489">XLM 734.47&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-489 price down">-3.86%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="XLM" tsym="USD" values="0.0989300927,0.0996508590,0.1008615013,0.1005417631,0.1011393312,0.1002014371,0.1005313795,0.0998084892,0.0997620407,0.0986513223,0.0984376760,0.0982578724,0.0980808242,0.0980319079,0.0982615453,0.0983760238,0.0982814516,0.0974479019,0.0958909780,0.0969021724,0.0962837999,0.0956970249,0.0966408395,0.0954036710,0.09591430567937673" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="6" coin_url="https://coinlib.io/coin/XMR/Monero"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">15</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/xmr8ac6.png?25737" alt="Monero logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/XMR/Monero" target="_blank">Monero</a>
+<span class="tbl-coin-abbrev"> [XMR]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-6">$1.27&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-6"> $29.85&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-6 price">$72.15</span><span class="tbl-price small price dimmed avgprice-6-859">&#3647; 0.0076</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-6">$1.27&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-6">$29.85&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-6">XMR 414K</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-6 price up">+1.07%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="XMR" tsym="USD" values="71.101384691428,71.407314917895,71.417387216857,71.916973822497,71.876070868059,71.836716949815,72.62197789657,72.033005502177,72.464323875995,72.845309478966,73.47572874704,73.846339939312,73.373838830624,73.24565800178,73.365720092015,73.122206014915,72.989826400775,72.734556277037,72.527514303385,72.737098797416,72.582524410968,72.291038071884,72.0443967143,71.477714436146,72.138028662646" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1511020" coin_url="https://coinlib.io/coin/LEO3/UNUS+SED+LEO"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">16</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/leo38ac6.png?25737" alt="UNUS SED LEO logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/LEO3/UNUS+SED+LEO" target="_blank">UNUS SED LEO</a>
+<span class="tbl-coin-abbrev"> [LEO3]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1511020">$1.20&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1511020"> $2,582</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1511020 price">$1.198</span><span class="tbl-price small price dimmed avgprice-1511020-859">&#3647; 0.00012430</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1511020">$1.20&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1511020">$2,582</span>
+<span class="tbl-price small price dimmed volume24f-1511020">LEO3 2,156</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1511020 price up">+0.77%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="LEO3" tsym="USD" values="1.1887298216537,1.1921542776928,1.1917461102668,1.191737065937,1.1915387551701,1.1913716953655,1.1913242780355,1.191560857065,1.1921781069251,1.1919874933006,1.1914431498556,1.1913073963578,1.191237670038,1.1915220632102,1.1914562845458,1.1913843412405,1.1914005587867,1.1914163563113,1.1913339040161,1.1912088767196,1.1910069114436,1.197911826841,1.1978699713939,1.1973187997594,1.1978283054437" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="8550" coin_url="https://coinlib.io/coin/TRX/TRON"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">17</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/trx8ac6.png?25737" alt="TRON logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/TRX/TRON" target="_blank">TRON</a>
+<span class="tbl-coin-abbrev"> [TRX]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-8550">$1.18&nbsp;B</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-8550"> $51.27&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-8550 price">$0.0177</span><span class="tbl-price small price dimmed avgprice-8550-859">&#3647; 0.00000186</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-8550">$1.18&nbsp;B</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-8550">$51.27&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-8550">TRX 2.90&nbsp;B</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-8550 price down">-0.91%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="TRX" tsym="USD" values="0.01780782087919,0.017874633680513,0.017854887169512,0.01783742217344,0.017836660968844,0.017827906583209,0.017909339694004,0.017846975288987,0.017883282645561,0.018028117791063,0.017962607774939,0.017953022128713,0.017952325571988,0.017901974818669,0.017941485647704,0.017925677575269,0.017938209896482,0.017860513625579,0.017852337602408,0.017877028187676,0.017834487601278,0.017699490852535,0.017752554264189,0.017537206866985,0.017700589650234" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="503637" coin_url="https://coinlib.io/coin/HT/Huobi+Token"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">18</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/ht8ac6.png?25737" alt="Huobi Token logo" />
+ </td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/HT/Huobi+Token" target="_blank">Huobi Token</a>
+<span class="tbl-coin-abbrev"> [HT]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-503637">$964.13&nbsp;M</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-503637"> $18.05&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-503637 price">$4.219</span><span class="tbl-price small price dimmed avgprice-503637-859">&#3647; 0.00044466</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-503637">$964.13&nbsp;M</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-503637">$18.05&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-503637">HT 4.28&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-503637 price down">-2.39%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="HT" tsym="USD" values="4.320620581423,4.3252756878173,4.3238454296468,4.3241677738448,4.3261789595114,4.322318534446,4.3237646199472,4.3098355276156,4.3159875807419,4.3284630813682,4.3569336352085,4.356685252765,4.3632319921683,4.3576667980203,4.351470676504,4.3498616356808,4.3481746006699,4.3235784790794,4.3219850343066,4.3325326486739,4.3108134984681,4.2968427191899,4.2869974337578,4.2003818987058,4.2184389778628" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1248415" coin_url="https://coinlib.io/coin/VET/VeChain"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">19</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/vet8ac6.png?25737" alt="VeChain logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/VET/VeChain" target="_blank">VeChain</a>
+<span class="tbl-coin-abbrev"> [VET]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1248415">$944.89&nbsp;M</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1248415"> $37.91&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1248415 price">$0.0170</span><span class="tbl-price small price dimmed avgprice-1248415-859">&#3647; 0.00000179</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1248415">$944.89&nbsp;M</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1248415">$37.91&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-1248415">VET 2.23&nbsp;B</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1248415 price down">-3.09%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="VET" tsym="USD" values="0.017491351439934,0.017530652511012,0.01745722397488,0.017669261122857,0.017727256946688,0.017651317456333,0.01786940805589,0.017519132976293,0.017645830644348,0.017619548549339,0.017481706945668,0.01737488208366,0.017362545645344,0.017279372511327,0.017334620065088,0.017381282332357,0.017276003155232,0.017421124076214,0.017168545474941,0.017246604019849,0.017050964087414,0.017002006873386,0.017081997735082,0.016718348958799,0.017038921399807" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr><tr coin_id="1510706" coin_url="https://coinlib.io/coin/HYN/Hyperion"><td class="tbl-col-sm" style="padding-right:6px;"></td><td class="tbl-col-sm"><span class="tbl-rank">20</span></td><td class="fit clickable-coin-td">
+<img class="tbl-icon" src="static/img/coins/small/hyn8ac6.png?25737" alt="Hyperion logo" />
+</td>
+<td class="clickable-coin-td">
+<div class="tbl-currency">
+<a href="https://coinlib.io/coin/HYN/Hyperion" target="_blank">Hyperion</a>
+<span class="tbl-coin-abbrev"> [HYN]</span> </div>
+<div class="d-lg-none tbl-mob-info smaller">
+<span class="mob-info-title"> Mkt Cap </span>
+<span class="mob-info-value marketcap-1510706">$846.65&nbsp;M</span>
+<span class="mob-info-title"> Volume</span>
+<span class="mob-info-value volume-1510706"> $2.68&nbsp;M</span>
+</div>
+</td>
+<td class="clickable-coin-td">
+<span class="tbl-price avgprice-1510706 price">$0.71</span><span class="tbl-price small price dimmed avgprice-1510706-145">ETH 0.00259972</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed marketcap-1510706">$846.65&nbsp;M</span>
+</td>
+<td class="d-none d-lg-table-cell clickable-coin-td">
+<span class="tbl-price price dimmed volume-1510706">$2.68&nbsp;M</span>
+<span class="tbl-price small price dimmed volume24f-1510706">HYN 3.80&nbsp;M</span>
+</td>
+<td class="tbl-col-md change-period clickable-coin-td" style="padding-right:6px;">
+<span class="tbl-price pr-change delta-1510706 price up">+2.16%</span>
+<span class="small-chart-container"><div class="small-chart small-live-chart" days="1" fsym="HYN" tsym="USD" values="0.68199576102133,0.69268348419753,0.68918042655521,0.68561218225915,0.69035671278954,0.68813312234267,0.68214368161055,0.68386185147027,0.680893247954,0.68949170498743,0.69023207033673,0.69080898251186,0.69005732050969,0.69218591612641,0.68667681418858,0.68454992339842,0.69333765587152,0.69111773126546,0.69297517222523,0.69876152656441,0.69657347921566,0.70068261378292,0.70952043545309,0.69804623048076,0.70542097894307" point-interval="3600000" date-start="1595499600"></div></span>
+</td></tr></tbody></table>
+<script src="static/js/lib/jquery.min8ac6.js?25737"></script>
+<script src="static/js/lib/bootstrap.bundle.min8ac6.js?25737"></script>
+<script src="static/js/lib/bootstrap-select.min8ac6.js?25737"></script>
+<script src="static/js/lib/bootstrap3-typeahead.min8ac6.js?25737"></script>
+<script src="static/js/lib/jquery.blockui.min8ac6.js?25737"></script>
+<script src="static/js/lib/jquery.validate8ac6.js?25737"></script>
+
+<script>
+    (function($) {
+        $.extend($.validator.messages, {
+            required: "This field is required.",
+            remote: "Please fix this field.",
+            email: "Please enter a valid email address.",
+            url: "Please enter a valid URL.",
+            date: "Please enter a valid date.",
+            dateISO: "Please enter a valid date ( ISO ).",
+            number: "Please enter a valid number.",
+            digits: "Please enter only digits.",
+            creditcard: "Please enter a valid credit card number.",
+            equalTo: "Please enter the same value again.",
+            maxlength: $.validator.format("Please enter no more than {0} characters."),
+            minlength: $.validator.format("Please enter at least {0} characters."),
+            rangelength: $.validator.format("Please enter a value between {0} and {1} characters long."),
+            range: $.validator.format("Please enter a value between {0} and {1}."),
+            max: $.validator.format("Please enter a value less than or equal to {0}."),
+            min: $.validator.format("Please enter a value greater than or equal to {0}.")
+        });
+    })(jQuery);
+</script>
+
+<script>
+    (function($) {
+
+    })(jQuery);
+</script>
+<script src="static/js/our/custom8ac6.js?25737"></script>
+<script src="static/js/our/account8ac6.js?25737"></script>
+<script src="static/js/lib/socket.io.slim8ac6.js?25737"></script>
+<script src="static/js/our/si8ac6.js?25737"></script>
+<script src="static/js/lib/highstock8ac6.js?25737"></script>
+<script src="static/js/lib/highchart-theme8ac6.js?25737"></script>
+<script src="static/js/lib/highchart-treemap8ac6.js?25737"></script>
+<script src="static/js/our/homepage8ac6.js?25737"></script>
+
+
+<script>
+        var fcm;  // Firebase Cloud Messaging
+        $().ready(function () {
+                        Settings.init('$');
+            
+if (window.ALL_COINS_ != undefined) {
+    new_ALL_COINS = {"0":" ","859":"&#3647;","145":"ETH ","619":"XRP ","648685":"USDC ","637":"USDT","157":"BCH ","122882":"ADA ","1510485":"BSV ","359":"LTC ","1209":"BNB ","7618":"LINK ","585":"EOS ","986":"XTZ ","1510617":"CRO ","489":"XLM ","6":"XMR ","1511020":"LEO3 ","8550":"TRX ","503637":"HT ","1248415":"VET ","1510706":"HYN "};
+    for (var coin_id in window.new_ALL_COINS) {
+        window.ALL_COINS_[coin_id] = new_ALL_COINS[coin_id];
+    }
+} else {
+    window.ALL_COINS_ = {"0":" ","859":"&#3647;","145":"ETH ","619":"XRP ","648685":"USDC ","637":"USDT","157":"BCH ","122882":"ADA ","1510485":"BSV ","359":"LTC ","1209":"BNB ","7618":"LINK ","585":"EOS ","986":"XTZ ","1510617":"CRO ","489":"XLM ","6":"XMR ","1511020":"LEO3 ","8550":"TRX ","503637":"HT ","1248415":"VET ","1510706":"HYN "};
+}            
+
+            // iOS: the new IE is here
+            if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+
+                // disable double tap zoom in iOS
+                $(document.head).append('<style>*{cursor:pointer;-webkit-tap-highlight-color:rgba(0,0,0,0)}</style>');
+
+                // disable pinch zoom in iOS
+                $(window).on('gesturestart touchmove', function (e) {
+                    if (e.originalEvent.scale !== 1) {
+                        e.originalEvent.preventDefault();
+                        document.body.style.transform = 'scale(1)';
+                    }
+                });
+
+                // fix curret misplacement (https://bugs.webkit.org/show_bug.cgi?id=176896)
+                $('body').addClass('iosBugFixCaret');
+            }
+
+            Generic.init(108934);
+            Account.init();
+        
+            Settings.init('$');
+        
+                drawSmallCharts();
+            SocketInterface.init('https://ws.coinlib.io/', {"trades":[],"avgprice":{"[859,1505,859]":3,"[145,1505,859]":3,"[619,1505,859]":3,"[637,1505,648685]":3,"[157,1505,859]":3,"[122882,1505,859]":3,"[1510485,1505,859]":3,"[359,1505,859]":3,"[1209,1505,859]":3,"[7618,1505,859]":3,"[585,1505,859]":3,"[986,1505,859]":3,"[1510617,1505,859]":3,"[489,1505,859]":3,"[6,1505,859]":3,"[1511020,1505,859]":3,"[8550,1505,859]":3,"[503637,1505,859]":3,"[1248415,1505,859]":3,"[1510706,1505,145]":3},"mktcap":[]},
+
+ {"trades": {},"avgprice": {"raw": [function () { if (to_coin_id == 1505) Homepage.avgprice_handler(from_coin_id, price, delta24pct, pref_coin_id, total_volume24f, total_volume24t, from_to_pref_rate, marketcap); }]},"mktcap": {}},0,10);
+
+SocketInterface.connect();
+              setInterval(function() { SocketInterface.heartbeat(2); }, 60000);
+             
+$("a[href^='https://coinlib.io/coin/']").each(function() {
+  var r = document.referrer.split('index.html');
+  if (r.length >= 3) {
+    this.href = this.href + '?utm_source=' + escape(r[2]) + '&utm_medium=clwidget&utm_campaign=full';
+  }
+});        });
+    </script>
+</body>
+
+<!-- Mirrored from widget.coinlib.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jul 2020 09:21:23 GMT -->
+</html>
